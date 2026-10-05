@@ -428,11 +428,34 @@ h2.section-title {
 
 .pub-item {
   display: grid;
-  grid-template-columns: 3px 1fr;
+  grid-template-columns: 3px 100px 1fr;
   gap: 20px;
   padding: 26px 0;
   border-bottom: 1px solid var(--line-soft);
   transition: opacity .2s ease, max-height .2s ease;
+}
+
+.pub-thumb {
+  display: block;
+  width: 100px;
+  height: 130px;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--paper-raised);
+  box-shadow: 1px 1px 0 var(--line-soft);
+}
+.pub-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+@media (max-width: 620px) {
+  .pub-item { grid-template-columns: 3px 64px 1fr; gap: 14px; }
+  .pub-thumb { width: 64px; height: 84px; }
 }
 .pub-item:last-child { border-bottom: none; }
 .pub-item .rule { border-radius: 2px; }
