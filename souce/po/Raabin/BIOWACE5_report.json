@@ -1,0 +1,45 @@
+{
+  "Basophil": {
+    "precision": 0.9888888888888889,
+    "recall": 1.0,
+    "f1-score": 0.994413407821229,
+    "support": 89.0
+  },
+  "Eosinophil": {
+    "precision": 0.5996275605214153,
+    "recall": 1.0,
+    "f1-score": 0.7497089639115251,
+    "support": 322.0
+  },
+  "Lymphocyte": {
+    "precision": 0.9871668311944719,
+    "recall": 0.9671179883945842,
+    "f1-score": 0.9770395701025891,
+    "support": 1034.0
+  },
+  "Monocyte": {
+    "precision": 0.8804780876494024,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.911340206185567,
+    "support": 234.0
+  },
+  "Neutrophil": {
+    "precision": 0.9987745098039216,
+    "recall": 0.9191729323308271,
+    "f1-score": 0.9573218480814408,
+    "support": 2660.0
+  },
+  "accuracy": 0.93961742336944,
+  "macro avg": {
+    "precision": 0.8909871756116201,
+    "recall": 0.9661470730339712,
+    "f1-score": 0.9179647992204701,
+    "support": 4339.0
+  },
+  "weighted avg": {
+    "precision": 0.9598049683435083,
+    "recall": 0.93961742336944,
+    "f1-score": 0.9448946115016669,
+    "support": 4339.0
+  }
+}

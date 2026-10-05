@@ -1,0 +1,63 @@
+{
+  "melanoma": {
+    "precision": 0.6838709677419355,
+    "recall": 0.7035398230088495,
+    "f1-score": 0.693565976008724,
+    "support": 904.0
+  },
+  "melanocytic_nevus": {
+    "precision": 0.866458414681765,
+    "recall": 0.8617475728155339,
+    "f1-score": 0.8640965732087228,
+    "support": 2575.0
+  },
+  "basal_cell_carcinoma": {
+    "precision": 0.8171875,
+    "recall": 0.7864661654135339,
+    "f1-score": 0.8015325670498085,
+    "support": 665.0
+  },
+  "actinic_keratosis": {
+    "precision": 0.5560538116591929,
+    "recall": 0.7167630057803468,
+    "f1-score": 0.6262626262626263,
+    "support": 173.0
+  },
+  "benign_keratosis": {
+    "precision": 0.7178329571106095,
+    "recall": 0.6057142857142858,
+    "f1-score": 0.6570247933884298,
+    "support": 525.0
+  },
+  "dermatofibroma": {
+    "precision": 0.64,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6530612244897959,
+    "support": 48.0
+  },
+  "vascular_lesion": {
+    "precision": 0.4166666666666667,
+    "recall": 0.9803921568627451,
+    "f1-score": 0.5847953216374269,
+    "support": 51.0
+  },
+  "squamous_cell_carcinoma": {
+    "precision": 0.69,
+    "recall": 0.5476190476190477,
+    "f1-score": 0.6106194690265486,
+    "support": 126.0
+  },
+  "accuracy": 0.7836984408920465,
+  "macro avg": {
+    "precision": 0.6735087897325212,
+    "recall": 0.7336135904851262,
+    "f1-score": 0.6863698188840104,
+    "support": 5067.0
+  },
+  "weighted avg": {
+    "precision": 0.790359003758509,
+    "recall": 0.7836984408920465,
+    "f1-score": 0.7847725438249842,
+    "support": 5067.0
+  }
+}
